@@ -1,14 +1,14 @@
 import os
 import json
 from PIL import Image
-
 import numpy as np
 import tensorflow as tf
 import streamlit as st
 
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = f"{working_dir}/trained_model/plant_disease_prediction_model.h5"
+model_path = f"{working_dir}/trained_model\plant_disease_prediction_model.h5"
+
 # Load the pre-trained model
 model = tf.keras.models.load_model(model_path)
 
