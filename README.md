@@ -1,16 +1,16 @@
-🌱 Plant Disease Detection CNN Web App
+#### **🌱Plant Disease Detection CNN Web      App**
 
 Production-style ML application for farmers. Upload leaf photo → CNN detects 38 plant diseases instantly with confidence scores and treatment recommendations. Built with Streamlit + TensorFlow.
 
+##### 
 
-
-📌 Overview
+##### **📌 Overview**
 
 Zero-cost, production-ready plant disease diagnosis app. Uses CNN model trained on PlantVillage dataset (54K+ images). Farmers upload leaf photos through a clean web interface and get instant diagnosis + treatment suggestions.
 
 
 
-Demonstrates:
+##### **Demonstrates:**
 
 
 
@@ -24,9 +24,9 @@ Clean executive dashboard UI for non-technical users
 
 Reproducible deployment (Git + requirements + model link)
 
+##### 
 
-
-✨ Features
+##### **✨ Features**
 
 CNN Disease Detection
 
@@ -104,9 +104,11 @@ No cloud dependencies or API costs
 
 
 
-🧱 Tech Stack
 
-text
+
+##### **🧱 Tech Stack**
+
+
 
 Frontend: Streamlit
 
@@ -120,7 +122,9 @@ Database: SQLite (prediction history)
 
 Packaging: Git, requirements.txt
 
-🖥️ How It Works (High Level)
+
+
+##### **🖥️ How It Works**
 
 User uploads leaf photo via Streamlit interface
 
@@ -144,9 +148,9 @@ Results display: Disease name, confidence, treatment text
 
 Dashboard updates: Stores in SQLite, refreshes charts
 
+##### 
 
-
-🧩 Problem \& Motivation
+##### **🧩 Problem \& Motivation**
 
 Farmers lose 20-40% of crops to diseases due to late diagnosis. Traditional methods require experts (expensive, slow). This app provides instant, accurate diagnosis using phone photos, enabling early treatment and saving crops.
 
@@ -156,7 +160,7 @@ Target users: Small farmers, agricultural students, crop consultants.
 
 
 
-⚖️ Design Decisions \& Trade-offs
+##### **⚖️ Design Decisions \& Trade-offs**
 
 Pre-trained model vs retraining
 
@@ -182,7 +186,7 @@ Perfect for single-user local deployment. Trade-off: Not suitable for multi-user
 
 
 
-🧠 Evaluation \& Practical Insights
+###### **🧠 Evaluation \& Practical Insights**
 
 Model Performance: 99.2% validation accuracy on 54K PlantVillage images
 
@@ -212,7 +216,7 @@ Classes: 38 diseases + 14 healthy crops
 
 
 
-🚀 Quick Start
+###### **🚀 Quick Start**
 
 1\. Clone Repository
 
@@ -248,7 +252,7 @@ Open http://localhost:8501 → Upload leaf photo → Instant diagnosis!
 
 
 
-🧪 How to Use
+###### **🧪 How to Use**
 
 Launch app → Dashboard loads
 
@@ -274,9 +278,9 @@ Repeat for multiple plants
 
 
 
-🔮 Limitations \& Future Work
+###### **🔮 Limitations \& Future Work**
 
-Current limitations:
+###### **Current limitations:**
 
 
 
@@ -292,7 +296,7 @@ Local deployment only (no cloud hosting)
 
 
 
-Future improvements:
+###### **Future improvements:**
 
 
 
